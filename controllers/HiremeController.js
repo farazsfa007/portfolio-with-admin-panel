@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require('uuid')
-const HireMe = require('../models/HiremeModels');
+const HireMe = require('../models/HireMeModels');
 
 const createHireMe = async (req, res) => {
     try {
